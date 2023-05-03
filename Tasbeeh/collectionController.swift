@@ -103,6 +103,7 @@ class collectionController: UICollectionViewController {
             navigationController?.pushViewController(vc, animated: true)
             }
         }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.save()
